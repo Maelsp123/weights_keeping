@@ -50,11 +50,11 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Container(
                         margin: EdgeInsets.all(2),
-                        child: Text(" Poids: 80 Kg"),
+                        child: Text(" Poids"),
                       ),
                       Container(
                         margin: EdgeInsets.all(2),
-                        child: Text("Date: 25/11/2021"),
+                        child: Text("Date"),
                       ),
                       Row(
                         children: [
