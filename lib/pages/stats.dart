@@ -3,7 +3,9 @@ import 'package:weights_keeping/components/bar_graph.dart';
 
 class Stats extends StatefulWidget {
   final List weights;
-  const Stats({super.key, required this.weights});
+  const Stats({super.key, required this.weights, this.user_id});
+    final user_id;
+
 
   @override
   State<Stats> createState() => _StatsState();
